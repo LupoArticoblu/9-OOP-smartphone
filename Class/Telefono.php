@@ -15,7 +15,7 @@ class Telefono
   * @param Int $_price
   * @param Spec $_spec
   */
- public function __construct($_producer, $_model, $_price, Spec $_spec = null) {
+ public function __construct($_producer, $_model, $_price, ?Spec $_spec = null) {
    $this->producer = $_producer;
    $this->model = $_model;
    $this->price = $_price;
